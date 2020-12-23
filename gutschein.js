@@ -1,3 +1,13 @@
+function simpleHash(str)
+{
+    let hash = 0;
+    for (i = 0;i < str.length; i++)
+    {
+        hash += str.charCodeAt(i);
+    }
+    return hash;
+}
+
 function submit()
 {
     var cd = document.forms["myform"]["code"].value;
@@ -5,12 +15,12 @@ function submit()
     if(hash === 871)
     {
         window.location = "gutschein.html";
-        alert("Ich liebe dich!");
+        alert("Frohe Weihnachten!");
     }
     else if(hash === 1215)
     {
         window.location = "essen.html";
-        alert("Ich liebe dich!");
+        alert("Frohe Weihnachten!");
     }
     else if(hash === 961)
     {
@@ -27,15 +37,3 @@ function submit()
         alert("The code you've entered is incorrect!");
     }
 }
-
-function simpleHash(str)
-{
-    let hash = 0;
-    for (i = 0;i < str.length; i++)
-    {
-        hash += str.charCodeAt(i);
-    }
-    return hash;
-}
-
-window.location = simpleHash(goldeneweihnachten);
