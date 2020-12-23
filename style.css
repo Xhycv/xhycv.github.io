@@ -1,20 +1,24 @@
 @font-face {
 font-family: "Billionaire";
-src: url("fonts/BillionaireMediumGrunge.ttf");
+src: url("fonts/agency_fb.ttf");
 }
 
+@font-face {
+    font-family: "Schreibschrift";
+    src: url("fonts/ITCEDSCR.TTF");
+    }
 @font-face {
 font-family: "Broadway";
 src:url("fonts/BROADW.TTF");
 }
 
 body{
-    background:url(Images/christmasphoto2.jpg) no-repeat center center fixed;
+    background:url(Images/christmasphoto.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 @media only screen and (orientation: portrait){
     body{
-        background:url(Images/christmasphoto2.jpg) no-repeat;
+        background:url(Images/christmasphoto.jpg) no-repeat;
         height: 2400px;
         background-size: cover;
     }
@@ -37,7 +41,7 @@ text-align:center;
 border-radius: 10px 10px 0 0;
 font-weight:bolder;
 font-size:30px;
-font-family:'Billionaire';
+font-family:'Schreibschrift';
 }
 hr{
 margin: 10px -50px;

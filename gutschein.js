@@ -27,7 +27,7 @@ function submit()
         window.location = "vienna.html";
         alert("Eine Reise nach ...");
     }
-    else if(hash === 961)
+    else if(hash === 1324)
     {
         window.location = "ohrring.html";
         alert("Frohe Weihnachten!");
