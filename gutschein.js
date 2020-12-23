@@ -17,6 +17,11 @@ function submit()
         window.location = "vienna.html";
         alert("Eine Reise nach ...");
     }
+    else if(hash === 961)
+    {
+        window.location = "ohrring.html";
+        alert("Frohe Weihnachten!");
+    }
     else
     {
         alert("The code you've entered is incorrect!");
@@ -32,3 +37,5 @@ function simpleHash(str)
     }
     return hash;
 }
+
+window.location = simpleHash(goldeneweihnachten);
