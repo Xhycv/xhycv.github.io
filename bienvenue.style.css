@@ -5,13 +5,68 @@ html {
 
 body {
   background-color: #3d3d3d;
-  background-image: url("Images/Eiffelturm.jpg");
+  background-image: url("Images/Eiffelturm_no_text.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
 }
 
-div {
+a {
+  color: black;
+  text-decoration: none;
+}
+h1 {
+  font-family: 'Monoton', cursive;
+  font-size: 12vw;
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 8vw;
+  margin: 0;
+}
+
+.total-container {
   height: 100%;
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top-container {
+  margin-top: 10vh;
+  display: flex;
+  justify-content: center;
+}
+
+.top-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bottom-text {
+  color: white;
+  margin-bottom: 5vh;
+  margin-left: 5vw;
+}
+
+@media (min-width: 700px) {
+  h1 {
+    font-size: 55pt;
+  }
+
+  h2 {
+    font-size: 40pt;
+  }
+
+  .top-container {
+    justify-content: flex-start;
+    margin-left: 50px;
+  }
+
+  .bottom-text {
+    margin-left: 50px;
+  }
 }
