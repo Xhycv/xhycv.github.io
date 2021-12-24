@@ -5,7 +5,7 @@ function simpleHash(str)
     {
         hash += str.charCodeAt(i);
     }
-    return hash;
+    return hash; 
 }
 
 function submit()
@@ -31,6 +31,11 @@ function submit()
     {
         window.location = "ohrring.html";
         alert("Frohe Weihnachten!");
+    }
+    else if(hash === 1220)
+    {
+        window.location = "bienvenue.html";
+        alert("Eine Reise nach ...");
     }
     else
     {
