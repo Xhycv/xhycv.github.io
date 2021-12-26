@@ -1,106 +1,118 @@
 @font-face {
-font-family: "Billionaire";
-src: url("fonts/agency_fb.ttf");
+  font-family: "Billionaire";
+  src: url("fonts/agency_fb.ttf");
 }
 
 @font-face {
-    font-family: "Schreibschrift";
-    src: url("fonts/ITCEDSCR.TTF");
-    }
-@font-face {
-font-family: "Broadway";
-src:url("fonts/BROADW.TTF");
+  font-family: "Schreibschrift";
+  src: url("fonts/ITCEDSCR.TTF");
 }
 
-body{
-    background:url(Images/christmasphoto.jpg) no-repeat center center fixed;
+@font-face {
+  font-family: "Broadway";
+  src: url("fonts/BROADW.TTF");
+}
+
+body {
+  background: url(Images/christmasphoto.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+@media only screen and (orientation: portrait) {
+  body {
+    background: url(Images/christmasphoto.jpg) no-repeat;
+    height: 2400px;
     background-size: cover;
+  }
 }
-@media only screen and (orientation: portrait){
-    body{
-        background:url(Images/christmasphoto.jpg) no-repeat;
-        height: 2400px;
-        background-size: cover;
-    }
+
+h1 {
+  background: linear-gradient(to bottom right, rgb(99, 55, 65), #343652, #7679a0);
+  color: whitesmoke;
+  padding: 30px 35px;
+  margin: -10px -50px;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+  font-family: 'Broadway';
 }
-h1{
-background: linear-gradient(to bottom right,rgb(99, 55, 65), #343652, #7679a0);
-color: whitesmoke;
-padding: 30px 35px;
-margin: -10px -50px;
-text-align:center;
-border-radius: 10px 10px 0 0;
-font-family: 'Broadway';
+
+h2 {
+  background-color: #FEFFED;
+  color: #343652;
+  padding: 30px 35px;
+  margin: -10px -50px;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+  font-weight: bolder;
+  font-size: 30px;
+  font-family: 'Schreibschrift';
 }
-h2{
-background-color: #FEFFED;
-color:#343652;
-padding: 30px 35px;
-margin: -10px -50px;
-text-align:center;
-border-radius: 10px 10px 0 0;
-font-weight:bolder;
-font-size:30px;
-font-family:'Schreibschrift';
+
+hr {
+  margin: 10px -50px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin-bottom: 40px;
 }
-hr{
-margin: 10px -50px;
-border: 0;
-border-top: 1px solid #ccc;
-margin-bottom: 40px;
+
+div.container {
+  width: 900px;
+  height: 610px;
+  margin: 35px auto;
+  font-family: 'Billionaire', sans-serif;;
 }
-div.container{
-width: 900px;
-height: 610px;
-margin:35px auto;
-font-family: 'Billionaire';
+
+div.main {
+  width: 300px;
+  padding: 10px 50px 25px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  float: left;
+  margin-left: 25%;
+  margin-top: 25%;
+  background-color: whitesmoke;
+  font-size: 20px;
+  font-family: 'Billionaire', sans-serif;;
 }
-div.main{
-width: 300px;
-padding: 10px 50px 25px;
-border: 2px solid gray;
-border-radius: 10px;
-float:left;
-margin-left:25%;
-margin-top:25%;
-background-color: whitesmoke;
-font-size:20px;
-font-family:'Billionaire';
+
+input[type=text] {
+  width: 100%;
+  height: 40px;
+  padding: 5px;
+  margin-bottom: 25px;
+  margin-top: 5px;
+  border: 2px solid #ccc;
+  color: #343652;
+  font-size: 20px;
+  border-radius: 5px;
+  font-family: 'Billionaire', sans-serif;
 }
-input[type=text]{
-width: 100%;
-height: 40px;
-padding: 5px;
-margin-bottom: 25px;
-margin-top: 5px;
-border: 2px solid #ccc;
-color: #343652;
-font-size: 20px;
-border-radius: 5px;
-font-family: 'Billionaire';
+
+label {
+  color: #343652;
+  text-shadow: 0 1px 0 #fff;
+  font-size: 18px;
+  font-weight: bold;
 }
-label{
-color: #343652;
-text-shadow: 0 1px 0 #fff;
-font-size: 18px;
-font-weight: bold;
+
+center {
+  font-size: 32px;
 }
-center{
-font-size:32px;
+
+button {
+  font-size: 22px;
+  font-family: 'Billionaire', sans-serif;
+  background: linear-gradient(#ffbc00 5%, #ffdd7f 100%);
+  border: 1px solid #e5a900;
+  color: #343652;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px 0;
+  outline: none;
 }
-input[type=submit]{
-font-size: 22px;
-font-family: 'Billionaire';
-background: linear-gradient(#ffbc00 5%, #ffdd7f 100%);
-border: 1px solid #e5a900;
-color:#343652;
-font-weight: bold;
-cursor: pointer;
-width: 100%;
-border-radius: 5px;
-padding: 10px 0;
-outline:none;
-}
-input[type=submit]:hover{
-background: linear-gradient(#ffdd7f 5%, #ffbc00 100%);
+
+button:hover {
+  background: linear-gradient(#ffdd7f 5%, #ffbc00 100%);
 }

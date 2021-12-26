@@ -1,16 +1,16 @@
 function simpleHash(str)
 {
     let hash = 0;
-    for (i = 0;i < str.length; i++)
+    for (let i = 0;i < str.length; i++)
     {
         hash += str.charCodeAt(i);
     }
-    return hash; 
+    return hash;
 }
 
-function submit()
+function submitCode()
 {
-    var cd = document.forms["myform"]["code"].value;
+    let cd = document.forms["myForm"]["code"].value;
     let hash = simpleHash(cd);
     if(hash === 871)
     {

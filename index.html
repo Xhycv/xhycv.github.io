@@ -3,27 +3,27 @@
 <html lang="de">
 
 <head>
-    <link rel="stylesheet" href="style.css">
-    <script src="gutschein.js"> </script>
-    <meta charset="utf8"/>
-    <title>Merry Christmas</title>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="utf8"/>
+  <title>Merry Christmas</title>
 </head>
 
 <body>
 <div class="container">
-<div class="main">
-    
-<h1>Frohe Weihnachten</h1>
-<h2>Gutscheinverschenkmaschine</h2>
+  <div class="main">
 
-<form name="myform">
-    <label><br>Giftcode:<br></label>
-    <input type="text" name="code" placeholder="Enter code here"><br>
-    <input type="submit" onclick="submit()" value="Submit"
-</form>
+    <h1>Frohe Weihnachten</h1>
+    <h2>Gutscheinverschenkmaschine</h2>
 
+    <form name="myForm">
+      <label for="code"><br/>Giftcode:<br/></label>
+      <input id="code" type="text" name="code" placeholder="Enter code here">
+      <button onclick="submitCode()">Submit</button>
+    </form>
+
+  </div>
 </div>
-</div>
+<script src="gutschein.js"></script>
 </body>
 
 </html>
