@@ -39,7 +39,7 @@ function submitCode()
     }
     else if(hash === 1005)
     {
-        window.location = "lecker.html";
+        window.location.href = "lecker.html";
         alert("Frohe Weihnachten!");
     }
     else
