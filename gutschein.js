@@ -37,6 +37,11 @@ function submitCode()
         window.location = "bienvenue.html";
         alert("Eine Reise nach ...");
     }
+    else if(hash === 1005)
+    {
+        window.location = "lecker.html";
+        alert("Frohe Weihnachten!");
+    }
     else
     {
         alert("The code you've entered is incorrect!");
